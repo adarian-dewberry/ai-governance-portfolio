@@ -14,6 +14,8 @@ This project defines an enterprise AI intake and risk triage workflow that captu
 
 ### Workflow Overview
 
+
+
 ![AI Intake and Risk Triage Workflow](ai_intake_workflow.png)
 
 
