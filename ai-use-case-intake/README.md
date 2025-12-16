@@ -17,6 +17,17 @@ This project defines an enterprise AI intake and risk triage workflow that captu
 - **Medium Risk**: Customer-facing AI, limited personal data, human-in-the-loop
 - **High Risk**: Automated decisions, regulated data, safety or financial impact
 
+- ### Governance Actions by Risk Tier
+
+| Risk Tier | Governance Actions Triggered |
+|---------|------------------------------|
+| Low | Business approval, basic logging, periodic review |
+| Medium | Legal and Security review, documented controls, human oversight |
+| High | Executive approval, DPIA, security architecture review, continuous monitoring |
+
+This ensures AI governance controls are **proportionate to risk** and scalable across the enterprise.
+
+
 ### Frameworks & Standards
 - NIST AI Risk Management Framework
 - EU AI Act (risk tiers)
