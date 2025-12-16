@@ -12,6 +12,11 @@ This project defines an enterprise AI intake and risk triage workflow that captu
 3. Governance controls and approvals are triggered based on risk
 4. Decisions and rationale are recorded for audit and oversight
 
+### Workflow Overview
+
+![AI Intake and Risk Triage Workflow](ai_intake_workflow.png)
+
+
 ### Risk Classification (Example)
 - **Low Risk**: Internal productivity tools, no personal data, no automated decisions
 - **Medium Risk**: Customer-facing AI, limited personal data, human-in-the-loop
