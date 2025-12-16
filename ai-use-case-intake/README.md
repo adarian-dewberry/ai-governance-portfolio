@@ -14,10 +14,7 @@ This project defines an enterprise AI intake and risk triage workflow that captu
 
 ### Workflow Overview
 
-
-
 ![AI Intake and Risk Triage Workflow](ai_intake_workflow.png)
-
 
 ### Risk Classification (Example)
 - **Low Risk**: Internal productivity tools, no personal data, no automated decisions
