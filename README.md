@@ -1,25 +1,52 @@
-# AI Governance & Risk Portfolio
+## AI Use Case Intake & Risk Triage Workflow
 
-This repository showcases enterprise-ready AI governance and risk artifacts designed for regulated industries such as financial services and healthcare.
+### Problem
+Enterprises often lack a consistent, auditable process for approving and governing AI use cases. Teams deploy AI quickly, while legal, security, and compliance are engaged too late.
 
-The focus is on building practical AI oversight operating models that enable organizations to adopt AI responsibly while meeting regulatory, security, and risk expectations.
+### Solution
+This project defines an enterprise AI intake and risk triage workflow that captures AI use case details, classifies risk, triggers governance controls, and produces an auditable decision trail.
 
-## What This Portfolio Demonstrates
-- Enterprise AI use case intake and risk triage workflows
-- AI risk classification aligned to NIST AI RMF and EU AI Act
-- Third-party AI risk management (TPRM) frameworks
-- ISO/IEC 42001 audit and governance readiness
-- Board-level AI risk reporting and metrics
+### How the Workflow Operates
+1. Business teams submit AI use cases through a standardized intake
+2. Use cases are classified by risk level (low, medium, high)
+3. Governance controls and approvals are triggered based on risk
+4. Decisions and rationale are recorded for audit and oversight
 
-## Design Principles
-- Governance-first, not model-first
-- Auditability and accountability by default
-- Practical implementation over theoretical frameworks
-- Alignment with existing enterprise GRC programs
+### Workflow Overview
 
-## Intended Audience
-- Directors and Principals of AI Governance, Risk, and Compliance
-- Security and GRC leaders overseeing AI adoption
-- Audit, legal, and compliance stakeholders
+![AI Intake and Risk Triage Workflow](ai_intake_workflow.png)
 
-Each folder contains a standalone project with executive documentation and implementation artifacts.
+
+### Risk Classification (Example)
+- **Low Risk**: Internal productivity tools, no personal data, no automated decisions
+- **Medium Risk**: Customer-facing AI, limited personal data, human-in-the-loop
+- **High Risk**: Automated decisions, regulated data, safety or financial impact
+
+- ### Governance Actions by Risk Tier
+
+| Risk Tier | Governance Actions Triggered |
+|---------|------------------------------|
+| Low | Business approval, basic logging, periodic review |
+| Medium | Legal and Security review, documented controls, human oversight |
+| High | Executive approval, DPIA, security architecture review, continuous monitoring |
+
+This ensures AI governance controls are **proportionate to risk** and scalable across the enterprise.
+
+
+### Frameworks & Standards
+- NIST AI Risk Management Framework
+- EU AI Act (risk tiers)
+- ISO/IEC 42001
+- Enterprise GRC best practices
+
+### Business Value
+- Faster AI approvals without sacrificing governance
+- Reduced regulatory and compliance exposure
+- Clear accountability across business, legal, and security teams
+
+- ### Enterprise Use Cases
+- Financial institutions governing AI credit or fraud tools
+- Healthcare organizations approving clinical decision support AI
+- Large enterprises managing generative AI adoption across departments
+
+This workflow is designed to integrate with existing GRC, security, and compliance programs rather than operate as a standalone process.
